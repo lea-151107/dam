@@ -1,0 +1,38 @@
+                  ┌───────────────────┐
+                  │      Person       │
+                  ├───────────────────┤
+                  │ string  firstName │
+                  └─────────┬─────────┘
+                            │
+                       0..1 is 0..1
+                            │
+                            │
+               ┌────────────┴───────────┐
+               │        CUSTOMER        │
+               ├────────────────────────┤
+               │ string  name           │
+               │ string  custNumber  PK │
+               │ string  sector         │
+               └────┬────────────────┬──┘
+                    │                ┆
+              1 places 0..*    1..* uses 1..*
+                    │                ┆
+                    │                ┆
+┌───────────────────┴─────────┐      ┆
+│            ORDER            │      ┆
+├─────────────────────────────┤ ┌────┴─────────────┐   ┌─────────┐
+│ int     orderNumber      PK │ │ DELIVERY-ADDRESS │   │ PRODUCT │
+│ string  deliveryAddress  FK │ └──────────────────┘   └┬────────┘
+│ customer address            │                         │
+└────────────────────────┬────┘                         │
+                         │                              │
+                  1 contains 1..*               1 ordered in 0..*
+                         │                       ┌──────┘
+                         │                       │
+                       ┌─┴───────────────────────┴┐
+                       │        LINE-ITEM         │
+                       ├──────────────────────────┤
+                       │ string  productCode   FK │
+                       │ int     quantity         │
+                       │ float   pricePerUnit     │
+                       └──────────────────────────┘

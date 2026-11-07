@@ -1,0 +1,18 @@
+sequenceDiagram
+  title Order lifecycle
+  box Aqua Frontend
+    actor U as User
+    participant W as Web
+  end
+  box rgb(255,240,200) Backend
+    participant A as API
+  end
+  U->>+W: open page
+  W->>A: request
+  create participant J as Job
+  A->>J: start
+  J-->>A: done
+  destroy J
+  A-xJ: cleanup
+  A-->>W: result
+  W-->>-U: show

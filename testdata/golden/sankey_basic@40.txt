@@ -1,0 +1,32 @@
+Agricultural 'waste'
+  → Bio-conversi…  ████          124.729
+
+Bio-conversion
+  → Liquid         █             0.597
+  → Losses         █             26.862
+  → Solid          █████████     280.322
+  → Gas            ███           81.144
+
+Liquid
+  → Industry       █             10
+
+Solid
+  → Thermal gene…  █████████████ 400.12
+
+Gas
+  → Industry       ███           81.144
+
+Biofuel imports
+  → Liquid         █             35
+
+Biomass imports
+  → Solid          █             35
+
+Coal imports
+  → Coal           █             11.606
+
+Coal
+  → Solid          ██            75.571
+
+Coal reserves
+  → Coal           ██            63.965

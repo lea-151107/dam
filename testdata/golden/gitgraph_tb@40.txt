@@ -1,0 +1,7 @@
+●   init (main)
+├─┐
+│ ● work (feature)
+│ │
+● │ fix (main)
+├─┘
+◉   merge (main) [v2]

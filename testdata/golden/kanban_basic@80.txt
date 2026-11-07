@@ -1,0 +1,14 @@
+■ Todo
+  • Create Documentation
+  • Create Blog about the new diagram
+
+■ In progress
+  • Create renderer so that it works in all cases. We also add some extra text
+    here for testing purposes.
+
+■ Ready for deploy
+  • Design grammar (knsv)
+
+■ Ready for test
+  • Create parsing tests (MC-2038, K.Sveidqvist, High)
+  • last item (knsv, Very Low)

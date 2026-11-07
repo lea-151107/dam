@@ -1,0 +1,10 @@
+My working day
+
+■ Go to work
+  Make tea       ●●●●●  Me
+  Go upstairs    ●●●○○  Me
+  Do work        ●○○○○  Me, Cat
+
+■ Go home
+  Go downstairs  ●●●●●  Me
+  Sit down       ●●●●○  Me

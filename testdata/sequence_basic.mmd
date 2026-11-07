@@ -1,0 +1,20 @@
+sequenceDiagram
+    autonumber
+    actor U as User
+    participant W as Web Server
+    participant DB as Database
+    U->>+W: GET /index.html
+    W->>DB: SELECT * FROM pages
+    DB-->>W: rows
+    Note right of DB: cached for 60s
+    loop Every minute
+        W->>W: refresh cache
+    end
+    alt is logged in
+        W-->>U: 200 OK
+    else not logged in
+        W--xU: 401 Unauthorized
+    end
+    W-)DB: async log
+    Note over U,W: done
+    W-->>-U: close

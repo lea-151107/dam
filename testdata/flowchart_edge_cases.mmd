@@ -1,0 +1,12 @@
+---
+title: front matter is skipped
+---
+%%{init: {"theme": "dark"}}%%
+graph BT
+  %% a comment
+  start(["Quoted #quot;label#quot; & more"]) --> mid[/In/] ; mid --> out[\Out\]
+  a & b --> c ---> d
+  c -.text.-> start
+  d == thick ==> start
+  x --o y --x z
+  click a callback

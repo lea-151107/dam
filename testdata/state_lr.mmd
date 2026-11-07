@@ -1,0 +1,14 @@
+stateDiagram
+    direction LR
+    [*] --> Idle
+    Idle --> Running : start
+    state Running {
+        direction LR
+        [*] --> Working
+        Working --> Paused : pause
+        Paused --> Working : resume
+    }
+    Running --> Idle : stop
+    state join_state <<join>>
+    Idle --> join_state
+    join_state --> [*]

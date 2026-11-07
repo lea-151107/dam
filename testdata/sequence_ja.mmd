@@ -1,0 +1,6 @@
+sequenceDiagram
+  participant U as 利用者
+  participant S as サーバー
+  U->>S: 注文を送信
+  S-->>U: 受付番号を返す
+  Note over U,S: 支払いは後で行う

@@ -1,0 +1,23 @@
+stateDiagram-v2
+    [*] --> Still
+    Still --> [*]
+    Still --> Moving : push
+    Moving --> Still : stop
+    Moving --> Crash
+    Crash --> [*]
+    state Moving {
+        [*] --> Slow
+        Slow --> Fast : accelerate
+        Fast --> Slow : brake
+    }
+    state check <<choice>>
+    Crash --> check
+    check --> Repair : minor
+    check --> Scrap : total
+    state fork_state <<fork>>
+    Repair --> fork_state
+    fork_state --> Paint
+    fork_state --> Engine
+    Still : parked
+    Still : engine off
+    note right of Crash : call insurance

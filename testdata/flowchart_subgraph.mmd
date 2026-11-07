@@ -1,0 +1,16 @@
+flowchart LR
+    subgraph one [First group]
+      a1[(Database)] --> a2[[Subroutine]]
+    end
+    subgraph two
+      b1{{Hexagon}} --> b2>Asymmetric]
+      b3[/Parallel/] --- b4[\Trapezoid/]
+    end
+    c1([Stadium]) --> a2
+    one --> two
+    a1 --o b1
+    b2 --x c1
+    c1 <--> c2(((Double)))
+    c2 --> c2
+    classDef hot fill:#f96,stroke:#333,stroke-width:2px
+    class c2 hot

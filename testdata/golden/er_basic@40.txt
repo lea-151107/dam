@@ -1,0 +1,59 @@
+       ┌──────────┐
+       │  Person  │
+       ├──────────┤
+       │ string   │
+       │ firstNam │
+       │ e        │
+       └─────┬────┘
+             │
+          0..1 is
+          0..1
+             │
+       ┌─────┴────┐
+       │ CUSTOMER │
+       ├──────────┤
+       │ string   │
+       │ name     │
+       │ string   │
+       │ custNumb │
+       │ er  PK   │
+       │ string   │
+       │ sector   │
+       └─┬───────┬┘
+         │       ┆
+      1 places  1..*
+      0..*      uses
+         │      1..*
+┌────────┴─┐     ┆
+│  ORDER   │     ┆
+├──────────┤     ┆
+│ int      │     ┆
+│ orderNum │     ┆
+│ ber      │ ┌───┴──────┐
+│ PK       │ │ DELIVERY │  ┌─────────┐
+│ string   │ │ -ADDRESS │  │ PRODUCT │
+│ delivery │ └──────────┘  └┬────────┘
+│ Address  │                │
+│ FK       │                │
+│ customer │                │
+│  address │                │
+└─────────┬┘                │
+          │                 │
+       1  │                 │
+       contains          1  │
+        1..*             ordered
+          └───┐          in 0..*
+              │             │
+             ┌┴─────────┐   │
+             │ LINE-ITE ├───┘
+             │    M     │
+             ├──────────┤
+             │ string   │
+             │ productC │
+             │ ode   FK │
+             │ int      │
+             │ quantity │
+             │ float    │
+             │ pricePer │
+             │ Unit     │
+             └──────────┘

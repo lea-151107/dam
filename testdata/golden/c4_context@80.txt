@@ -1,0 +1,51 @@
+System Context diagram for Internet Banking System
+
+        ╭─────────────────────────╮
+        │    «external_system»    │
+        │      E-mail system      │
+        │ The internal Microsoft  │
+        │ Exchange e-mail system. │◀──┐
+        ╰────────────────────┬────╯   │
+                             │        │
+                             │  Sends e-mails
+                             │  [SMTP]│
+                      Sends e-mails to│
+                             │        │
+┌─ BankBoundary [enterprise] ┼────────┼───┐
+│                            │        │   │
+│                            ▼        │   │
+│    ╭──────────────────────────────╮ │   │
+│    │           «person»           │ │   │
+│    │      Banking Customer A      │ │   │
+│    │ A customer of the bank, with │ │   │
+│    │   personal bank accounts.    │ │   │
+│    ╰──────────────────────────────╯ │   │
+│                    ▲                │   │
+│                    │                │   │
+│                   Uses              │   │
+│                    │                │   │
+│                    ▼                │   │
+│    ╭──────────────────────────────╮ │   │
+│    │           «system»           ├─┘   │
+│    │   Internet Banking System    │     │
+│    │   Allows customers to view   │     │
+│    │ information about their bank │     │
+│    │ accounts, and make payments. │     │
+│    ╰──────────────────────┬───────╯     │
+│                           │             │
+│                          Uses           │
+│                           │             │
+│ ┌─ BankBoundary2 [system] ┼───────────┐ │
+│ │                         │           │ │
+│ │                         ▼           │ │
+│ │ ╭────────────────────────────────╮  │ │
+│ │ │      «external_system db»      │  │ │
+│ │ │    Mainframe Banking System    │  │ │
+│ │ │ Stores all of the core banking │  │ │
+│ │ │          information.          │  │ │
+│ │ ╰────────────────────────────────╯  │ │
+│ │                                     │ │
+│ │                                     │ │
+│ └─────────────────────────────────────┘ │
+│                                         │
+└─────────────────────────────────────────┘

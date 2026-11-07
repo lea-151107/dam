@@ -1,0 +1,13 @@
+stateDiagram-v2
+  [*] --> Active
+  state Active {
+    direction LR
+    [*] --> NumLockOff
+    NumLockOff --> NumLockOn : EvNumLockPressed
+    NumLockOn --> NumLockOff : EvNumLockPressed
+    --
+    [*] --> CapsLockOff
+    CapsLockOff --> CapsLockOn : EvCapsLockPressed
+    CapsLockOn --> CapsLockOff : EvCapsLockPressed
+  }
+  Active --> [*]

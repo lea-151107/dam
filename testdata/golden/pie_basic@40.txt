@@ -1,0 +1,6 @@
+Key elements in Product X
+
+Calcium [42.96]   │██████          39.8%
+Potassium [50.05] │██████          46.3%
+Magnesium [10.01] │█                9.3%
+Iron [5]          │█                4.6%

@@ -1,0 +1,12 @@
+---
+title: Forest theme with a custom line color
+config:
+  theme: forest
+---
+%%{init: {'themeVariables': {'lineColor': '#c0392b'}}}%%
+flowchart LR
+  A[Start] --> B{Check}
+  B -->|ok| C[Done]
+  subgraph S [Cluster]
+    C
+  end

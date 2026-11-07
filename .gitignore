@@ -1,0 +1,27 @@
+# Build output
+/mermaidpng
+/bin/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Test / profiling artifacts
+*.test
+*.out
+*.prof
+*.pprof
+coverage.*
+cover.html
+
+# Go workspace
+go.work
+go.work.sum
+
+# Editors / OS
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store

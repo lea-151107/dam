@@ -1,0 +1,18 @@
+gantt
+    title A Gantt Diagram
+    dateFormat YYYY-MM-DD
+    axisFormat %m/%d
+    excludes weekends
+    section Section
+    Completed task     :done,    des1, 2014-01-06, 2014-01-08
+    Active task        :active,  des2, 2014-01-09, 3d
+    Future task        :         des3, after des2, 5d
+    Future task2       :         des4, after des3, 5d
+    section Critical tasks
+    Completed critical :crit, done, 2014-01-06, 24h
+    Implement parser   :crit, active, 3d
+    Create tests       :crit, 2d
+    Release            :milestone, after des4, 0d
+    section Documentation
+    Describe syntax    :active, a1, after des1, 3d
+    Add diagrams       :after a1, 20h

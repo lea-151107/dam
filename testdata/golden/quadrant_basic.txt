@@ -1,0 +1,17 @@
+Reach and engagement of campaigns
+
+x: Low Reach → High Reach
+y: Low Engagement → High Engagement
+
+■ We should expand (top right)
+  Campaign C (0.57, 0.69)
+
+■ Need to promote (top left)
+  Campaign A (0.30, 0.60)
+
+■ Re-evaluate (bottom left)
+  Campaign B (0.45, 0.23)
+  Campaign E (0.40, 0.34)
+
+■ May be improved (bottom right)
+  Campaign D (0.78, 0.34)

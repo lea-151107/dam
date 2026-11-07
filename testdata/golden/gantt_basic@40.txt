@@ -1,0 +1,17 @@
+A Gantt Diagram
+
+■ Section
+Completed ta… │░░
+Active task   │   ▒▒▒▒▒▒
+Future task   │         ███████
+Future task2  │                ████████
+■ Critical tasks
+Completed cr… │░
+Implement pa… │ ▓▓▓
+Create tests  │    ▓▓▓▓▓
+Release       │                       ◆
+■ Documentation
+Describe syn… │  ▒▒▒
+Add diagrams  │     █
+              └────────────────────────
+               01/06              01/28

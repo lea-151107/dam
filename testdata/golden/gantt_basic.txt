@@ -1,0 +1,17 @@
+A Gantt Diagram
+
+■ Section
+Completed task     │░░░░░
+Active task        │        ▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+Future task        │                      ███████████████████
+Future task2       │                                         ███████████████████
+■ Critical tasks
+Completed critical │░░░
+Implement parser   │   ▓▓▓▓▓▓▓▓
+Create tests       │           ▓▓▓▓▓▓▓▓▓▓▓
+Release            │                                                           ◆
+■ Documentation
+Describe syntax    │     ▒▒▒▒▒▒▒▒▒
+Add diagrams       │              ██
+                   └────────────────────────────────────────────────────────────
+                    01/06                                                  01/28

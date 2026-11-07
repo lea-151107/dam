@@ -1,0 +1,16 @@
+C4Context
+  title System Context diagram for Internet Banking System
+  Enterprise_Boundary(b0, "BankBoundary") {
+    Person(customerA, "Banking Customer A", "A customer of the bank, with personal bank accounts.")
+    System(SystemAA, "Internet Banking System", "Allows customers to view information about their bank accounts, and make payments.")
+    System_Boundary(b1, "BankBoundary2") {
+      SystemDb_Ext(SystemE, "Mainframe Banking System", "Stores all of the core banking information.")
+    }
+  }
+  System_Ext(SystemC, "E-mail system", "The internal Microsoft Exchange e-mail system.")
+  BiRel(customerA, SystemAA, "Uses")
+  Rel(SystemAA, SystemE, "Uses")
+  Rel(SystemAA, SystemC, "Sends e-mails", "SMTP")
+  Rel(SystemC, customerA, "Sends e-mails to")
+  UpdateElementStyle(customerA, $fontColor="white", $bgColor="#2a6f2a", $borderColor="black")
+  UpdateLayoutConfig($c4ShapeInRow="3", $c4BoundaryInRow="1")

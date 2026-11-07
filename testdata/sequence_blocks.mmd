@@ -1,0 +1,21 @@
+sequenceDiagram
+    participant A
+    participant B
+    participant C
+    par Parallel
+        A->>B: hello
+    and
+        A->>C: hi
+    end
+    critical Connect
+        B-xC: fail
+    option Retry
+        B->>C: retry
+    end
+    rect rgb(200, 220, 255)
+        C-->>A: done
+    end
+    break when tired
+        A->A: sleep
+    end
+    Note left of A: left note

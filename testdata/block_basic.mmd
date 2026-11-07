@@ -1,0 +1,13 @@
+block-beta
+  columns 3
+  a["Frontend"] b(("API")):2
+  db[("Database")] space c{{"Cache"}}
+  block:grp:3
+    columns 2
+    w1["Worker 1"] w2["Worker 2"]
+  end
+  arr<["Deploy"]>(right) d>"Logs"] e[/"Queue"/]
+  a --> b
+  b -- "reads" --> db
+  b --> c
+  style c fill:#f9c74f

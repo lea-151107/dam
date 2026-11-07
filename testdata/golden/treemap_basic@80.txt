@@ -1,0 +1,11 @@
+Products  180
+├─ Electronics  100
+│  ├─ Phones  50
+│  ├─ Computers  30
+│  └─ Accessories  20
+└─ Clothing  80
+   ├─ Men's  40
+   └─ Women's  40
+Services  40
+├─ Support  25
+└─ Training  15

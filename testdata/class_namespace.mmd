@@ -1,0 +1,17 @@
+classDiagram
+    direction LR
+    namespace Shapes {
+        class Shape {
+            <<interface>>
+            +area() float
+        }
+        class Circle {
+            +float radius
+        }
+    }
+    Shape <|.. Circle
+    Circle --> Point : center
+    class Point {
+        +int x
+        +int y
+    }

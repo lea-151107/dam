@@ -1,0 +1,11 @@
+Grades
+
+          │ Alice │ Bob
+──────────┼───────┼────
+Math      │    85 │  70
+Science   │    90 │  75
+English   │    80 │  85
+History   │    70 │  80
+Geography │    75 │  90
+Art       │    90 │  85
+(scale 0 to 100)

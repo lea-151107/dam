@@ -1,0 +1,17 @@
+gitGraph
+    commit
+    commit id: "feat-a"
+    branch develop
+    checkout develop
+    commit tag: "v0.1"
+    commit type: HIGHLIGHT
+    checkout main
+    commit type: REVERSE
+    branch hotfix
+    commit
+    checkout main
+    merge develop tag: "v1.0"
+    merge hotfix
+    checkout develop
+    cherry-pick id: "feat-a"
+    commit
