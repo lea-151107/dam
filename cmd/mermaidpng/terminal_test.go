@@ -15,7 +15,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/lea/mermaid"
+	"github.com/lea-151107/dam"
 )
 
 func renderFixture(t *testing.T, bg color.Color) image.Image {

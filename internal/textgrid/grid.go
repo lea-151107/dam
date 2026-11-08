@@ -6,8 +6,8 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/lea/mermaid/internal/guard"
-	"github.com/lea/mermaid/internal/richtext"
+	"github.com/lea-151107/dam/internal/guard"
+	"github.com/lea-151107/dam/internal/richtext"
 )
 
 // MaxCells bounds the canvas size. The edge router keeps about 100 bytes

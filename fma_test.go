@@ -24,7 +24,7 @@ func TestNoFMA(t *testing.T) {
 	}
 	fused := regexp.MustCompile(`\(([^)]*\.go:\d+)\)\s+(VFN?M(ADD|SUB)\w*|FN?M(ADD|SUB)[DS])\b`)
 	for _, env := range [][]string{{"GOARCH=arm64"}, {"GOARCH=amd64", "GOAMD64=v3"}} {
-		cmd := exec.Command("go", "build", "-a", "-gcflags=github.com/lea/mermaid/...=-S", "./...")
+		cmd := exec.Command("go", "build", "-a", "-gcflags=github.com/lea-151107/dam/...=-S", "./...")
 		cmd.Env = append(append(os.Environ(), "CGO_ENABLED=0"), env...)
 		out, err := cmd.CombinedOutput()
 		if err != nil && !strings.Contains(string(out), "TEXT") {

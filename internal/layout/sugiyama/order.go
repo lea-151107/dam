@@ -4,7 +4,7 @@ import (
 	"cmp"
 	"slices"
 
-	"github.com/lea/mermaid/internal/scene"
+	"github.com/lea-151107/dam/internal/scene"
 )
 
 // maxClusterDepth bounds cluster nesting.

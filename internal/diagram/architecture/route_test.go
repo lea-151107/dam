@@ -6,9 +6,9 @@ import (
 	"math"
 	"testing"
 
-	"github.com/lea/mermaid/internal/diagram"
-	"github.com/lea/mermaid/internal/guard"
-	"github.com/lea/mermaid/internal/scene"
+	"github.com/lea-151107/dam/internal/diagram"
+	"github.com/lea-151107/dam/internal/guard"
+	"github.com/lea-151107/dam/internal/scene"
 )
 
 // crosses reports whether segment a-b runs through the inside of r.

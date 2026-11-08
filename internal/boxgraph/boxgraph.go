@@ -10,11 +10,11 @@ import (
 	"image/color"
 	"strings"
 
-	"github.com/lea/mermaid/internal/diagram"
-	"github.com/lea/mermaid/internal/layout/sugiyama"
-	"github.com/lea/mermaid/internal/scene"
-	"github.com/lea/mermaid/internal/textgraph"
-	"github.com/lea/mermaid/internal/textgrid"
+	"github.com/lea-151107/dam/internal/diagram"
+	"github.com/lea-151107/dam/internal/layout/sugiyama"
+	"github.com/lea-151107/dam/internal/scene"
+	"github.com/lea-151107/dam/internal/textgraph"
+	"github.com/lea-151107/dam/internal/textgrid"
 )
 
 // Visual constants in layout units.

@@ -9,8 +9,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/lea/mermaid/internal/guard"
-	"github.com/lea/mermaid/internal/source"
+	"github.com/lea-151107/dam/internal/guard"
+	"github.com/lea-151107/dam/internal/source"
 )
 
 // CommitType is the visual type of a commit.

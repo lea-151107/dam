@@ -9,11 +9,11 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/lea/mermaid/internal/guard"
-	"github.com/lea/mermaid/internal/layout/sugiyama"
-	"github.com/lea/mermaid/internal/scene"
-	"github.com/lea/mermaid/internal/source"
-	"github.com/lea/mermaid/internal/theme"
+	"github.com/lea-151107/dam/internal/guard"
+	"github.com/lea-151107/dam/internal/layout/sugiyama"
+	"github.com/lea-151107/dam/internal/scene"
+	"github.com/lea-151107/dam/internal/source"
+	"github.com/lea-151107/dam/internal/theme"
 )
 
 // Shape is a node shape.

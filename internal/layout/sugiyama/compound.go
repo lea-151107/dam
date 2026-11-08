@@ -1,8 +1,8 @@
 package sugiyama
 
 import (
-	"github.com/lea/mermaid/internal/guard"
-	"github.com/lea/mermaid/internal/scene"
+	"github.com/lea-151107/dam/internal/guard"
+	"github.com/lea-151107/dam/internal/scene"
 )
 
 // Layout computes a layout. Clusters are laid out recursively: each cluster

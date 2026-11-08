@@ -2,7 +2,7 @@
 // parent, subtrees stacked vertically).
 package tree
 
-import "github.com/lea/mermaid/internal/scene"
+import "github.com/lea-151107/dam/internal/scene"
 
 // Node is a tree node with its size and children.
 type Node struct {

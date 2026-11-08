@@ -11,12 +11,12 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/lea/mermaid/internal/diagram"
-	"github.com/lea/mermaid/internal/guard"
-	"github.com/lea/mermaid/internal/scene"
-	"github.com/lea/mermaid/internal/source"
-	"github.com/lea/mermaid/internal/textgrid"
-	"github.com/lea/mermaid/internal/theme"
+	"github.com/lea-151107/dam/internal/diagram"
+	"github.com/lea-151107/dam/internal/guard"
+	"github.com/lea-151107/dam/internal/scene"
+	"github.com/lea-151107/dam/internal/source"
+	"github.com/lea-151107/dam/internal/textgrid"
+	"github.com/lea-151107/dam/internal/theme"
 )
 
 // Shape is a block outline.

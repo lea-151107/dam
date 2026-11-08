@@ -165,3 +165,7 @@ go run ./cmd/mermaidpng --font /path/to/NotoSansJP.ttf --dark < diagram.mmd > ou
 
 - コーディング規約: [docs/CODING_GUIDELINES.md](docs/CODING_GUIDELINES.md)
 - 実装プラン: [docs/plans/mermaid-renderer.md](docs/plans/mermaid-renderer.md)
+
+## ライセンス
+
+コードは MIT License です（[LICENSE](LICENSE)）。テスト用のフォント `testdata/fonts/NotoSansCJKjp-subset.otf` は SIL Open Font License です（[testdata/fonts/OFL.txt](testdata/fonts/OFL.txt)）。

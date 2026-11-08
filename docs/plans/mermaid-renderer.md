@@ -5,7 +5,7 @@
 gvmd は単一バイナリ配布のため **cgo・外部コマンド・ネットワーク禁止**。出力は `image.Image`(RGBA) で、端末エンコードは gvmd 側。
 対応図種（ユーザー確定）: flowchart/graph, sequenceDiagram, classDiagram, stateDiagram, pie, gantt, gitGraph, mindmap。
 依存は **標準ライブラリ + golang.org/x/image のみ**。配置は `/home/lea/dam` 直下（現在 `docs/` のみ、コードなし）。
-モジュールパスは仮に `github.com/lea/mermaid` とし、実装開始時に差し替え可能にする。
+モジュールパスは仮に `github.com/lea-151107/dam` とし、実装開始時に差し替え可能にする。
 
 ## 公開 API（ルートパッケージ `mermaid`）
 RFP の API イメージに準拠し、以下を追加:

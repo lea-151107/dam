@@ -13,8 +13,8 @@ import (
 
 	"golang.org/x/text/unicode/norm"
 
-	"github.com/lea/mermaid/internal/guard"
-	"github.com/lea/mermaid/internal/richtext"
+	"github.com/lea-151107/dam/internal/guard"
+	"github.com/lea-151107/dam/internal/richtext"
 )
 
 // MaxInputBytes is the largest source accepted.

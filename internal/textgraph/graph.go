@@ -10,10 +10,10 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/lea/mermaid/internal/guard"
-	"github.com/lea/mermaid/internal/layout/sugiyama"
-	"github.com/lea/mermaid/internal/scene"
-	"github.com/lea/mermaid/internal/textgrid"
+	"github.com/lea-151107/dam/internal/guard"
+	"github.com/lea-151107/dam/internal/layout/sugiyama"
+	"github.com/lea-151107/dam/internal/scene"
+	"github.com/lea-151107/dam/internal/textgrid"
 )
 
 // Graph is a diagram to draw.

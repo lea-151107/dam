@@ -1,4 +1,4 @@
-module github.com/lea/mermaid
+module github.com/lea-151107/dam
 
 go 1.26.0
 

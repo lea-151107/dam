@@ -18,11 +18,11 @@ import (
 	"golang.org/x/image/font/opentype"
 	"golang.org/x/image/math/fixed"
 
-	"github.com/lea/mermaid/internal/guard"
-	"github.com/lea/mermaid/internal/source"
-	"github.com/lea/mermaid/internal/textgrid"
-	"github.com/lea/mermaid/internal/textmeasure"
-	"github.com/lea/mermaid/internal/theme"
+	"github.com/lea-151107/dam/internal/guard"
+	"github.com/lea-151107/dam/internal/source"
+	"github.com/lea-151107/dam/internal/textgrid"
+	"github.com/lea-151107/dam/internal/textmeasure"
+	"github.com/lea-151107/dam/internal/theme"
 )
 
 // TestMaxNodesEverywhere checks that every way of creating an element is

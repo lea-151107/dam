@@ -17,7 +17,7 @@ import (
 	"golang.org/x/image/font"
 	"golang.org/x/image/font/opentype"
 
-	"github.com/lea/mermaid"
+	"github.com/lea-151107/dam"
 )
 
 func main() {

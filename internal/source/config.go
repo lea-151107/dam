@@ -2,7 +2,7 @@ package source
 
 import (
 	"fmt"
-	"github.com/lea/mermaid/internal/guard"
+	"github.com/lea-151107/dam/internal/guard"
 	"strconv"
 	"strings"
 	"unicode"

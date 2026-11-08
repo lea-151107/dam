@@ -1,10 +1,10 @@
 package flowchart
 
 import (
-	"github.com/lea/mermaid/internal/guard"
-	"github.com/lea/mermaid/internal/scene"
-	"github.com/lea/mermaid/internal/textgraph"
-	"github.com/lea/mermaid/internal/textgrid"
+	"github.com/lea-151107/dam/internal/guard"
+	"github.com/lea-151107/dam/internal/scene"
+	"github.com/lea-151107/dam/internal/textgraph"
+	"github.com/lea-151107/dam/internal/textgrid"
 )
 
 // Text renders the flowchart with box-drawing characters.

@@ -3,8 +3,8 @@ package mindmap
 import (
 	"strings"
 
-	"github.com/lea/mermaid/internal/guard"
-	"github.com/lea/mermaid/internal/textgrid"
+	"github.com/lea-151107/dam/internal/guard"
+	"github.com/lea-151107/dam/internal/textgrid"
 )
 
 // Text renders the mind map as an indented tree (├─ └─), wrapping long

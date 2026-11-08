@@ -3,10 +3,10 @@ package state
 import (
 	"image/color"
 
-	"github.com/lea/mermaid/internal/diagram"
-	"github.com/lea/mermaid/internal/layout/sugiyama"
-	"github.com/lea/mermaid/internal/scene"
-	"github.com/lea/mermaid/internal/theme"
+	"github.com/lea-151107/dam/internal/diagram"
+	"github.com/lea-151107/dam/internal/layout/sugiyama"
+	"github.com/lea-151107/dam/internal/scene"
+	"github.com/lea-151107/dam/internal/theme"
 )
 
 // Visual constants in layout units.

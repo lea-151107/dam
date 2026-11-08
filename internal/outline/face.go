@@ -19,7 +19,7 @@ import (
 	"golang.org/x/image/math/fixed"
 	"golang.org/x/image/vector"
 
-	"github.com/lea/mermaid/internal/curve"
+	"github.com/lea-151107/dam/internal/curve"
 )
 
 // Face draws glyphs of f at a size of ppem pixels per em. Metrics,

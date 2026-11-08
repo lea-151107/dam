@@ -11,7 +11,7 @@ import (
 
 	"golang.org/x/image/font/basicfont"
 
-	"github.com/lea/mermaid/internal/textgrid"
+	"github.com/lea-151107/dam/internal/textgrid"
 )
 
 // FuzzRender feeds arbitrary input to every parser and layout. It calls the

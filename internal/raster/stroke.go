@@ -3,7 +3,7 @@ package raster
 import (
 	"math"
 
-	"github.com/lea/mermaid/internal/scene"
+	"github.com/lea-151107/dam/internal/scene"
 )
 
 // joinSegments is the polygon resolution of round joins and caps.

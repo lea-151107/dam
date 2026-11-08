@@ -9,8 +9,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/lea/mermaid/internal/guard"
-	"github.com/lea/mermaid/internal/source"
+	"github.com/lea-151107/dam/internal/guard"
+	"github.com/lea-151107/dam/internal/source"
 )
 
 // Task is one bar of the chart.

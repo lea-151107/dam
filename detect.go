@@ -6,8 +6,8 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"github.com/lea/mermaid/internal/guard"
-	"github.com/lea/mermaid/internal/source"
+	"github.com/lea-151107/dam/internal/guard"
+	"github.com/lea-151107/dam/internal/source"
 )
 
 // DiagramType identifies a kind of Mermaid diagram.

@@ -9,7 +9,7 @@ import (
 
 	"golang.org/x/image/vector"
 
-	"github.com/lea/mermaid/internal/scene"
+	"github.com/lea-151107/dam/internal/scene"
 )
 
 var black = color.NRGBA{0, 0, 0, 255}

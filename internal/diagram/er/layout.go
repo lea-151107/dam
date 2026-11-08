@@ -1,11 +1,11 @@
 package er
 
 import (
-	"github.com/lea/mermaid/internal/boxgraph"
-	"github.com/lea/mermaid/internal/diagram"
-	"github.com/lea/mermaid/internal/guard"
-	"github.com/lea/mermaid/internal/scene"
-	"github.com/lea/mermaid/internal/textgraph"
+	"github.com/lea-151107/dam/internal/boxgraph"
+	"github.com/lea-151107/dam/internal/diagram"
+	"github.com/lea-151107/dam/internal/guard"
+	"github.com/lea-151107/dam/internal/scene"
+	"github.com/lea-151107/dam/internal/textgraph"
 )
 
 // Layout implements diagram.Layouter.

@@ -7,8 +7,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/lea/mermaid/internal/guard"
-	"github.com/lea/mermaid/internal/source"
+	"github.com/lea-151107/dam/internal/guard"
+	"github.com/lea-151107/dam/internal/source"
 )
 
 func parse(src string) (*Graph, error) {

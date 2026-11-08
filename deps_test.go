@@ -23,7 +23,7 @@ func TestDependencies(t *testing.T) {
 		case pkg == "runtime/cgo", pkg == "os/exec", pkg == "net", strings.HasPrefix(pkg, "net/"), pkg == "plugin":
 			t.Errorf("forbidden dependency %s", pkg)
 		case std:
-		case strings.HasPrefix(pkg, "github.com/lea/mermaid"), strings.HasPrefix(pkg, "golang.org/x/image/"):
+		case strings.HasPrefix(pkg, "github.com/lea-151107/dam"), strings.HasPrefix(pkg, "golang.org/x/image/"):
 		case pkg == "golang.org/x/sys/cpu", strings.HasPrefix(pkg, "golang.org/x/text/"):
 			// Pure Go: CPU feature detection for vector (via x/image) and
 			// x/text (legacy encodings for sfnt; unicode/norm, imported by
@@ -77,5 +77,5 @@ var layers = map[string][]string{
 // TestLayering enforces the one-way dependency direction between internal
 // packages, including that diagram types do not import each other.
 func TestLayering(t *testing.T) {
-	checkLayering(t, "github.com/lea/mermaid/internal/", layers)
+	checkLayering(t, "github.com/lea-151107/dam/internal/", layers)
 }

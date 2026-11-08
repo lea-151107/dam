@@ -5,12 +5,12 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/lea/mermaid/internal/boxgraph"
-	"github.com/lea/mermaid/internal/guard"
-	"github.com/lea/mermaid/internal/layout/sugiyama"
-	"github.com/lea/mermaid/internal/scene"
-	"github.com/lea/mermaid/internal/source"
-	"github.com/lea/mermaid/internal/theme"
+	"github.com/lea-151107/dam/internal/boxgraph"
+	"github.com/lea-151107/dam/internal/guard"
+	"github.com/lea-151107/dam/internal/layout/sugiyama"
+	"github.com/lea-151107/dam/internal/scene"
+	"github.com/lea-151107/dam/internal/source"
+	"github.com/lea-151107/dam/internal/theme"
 )
 
 // Attribute is one row of an entity.

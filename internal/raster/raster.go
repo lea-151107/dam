@@ -13,9 +13,9 @@ import (
 	"golang.org/x/image/math/fixed"
 	"golang.org/x/image/vector"
 
-	"github.com/lea/mermaid/internal/guard"
-	"github.com/lea/mermaid/internal/richtext"
-	"github.com/lea/mermaid/internal/scene"
+	"github.com/lea-151107/dam/internal/guard"
+	"github.com/lea-151107/dam/internal/richtext"
+	"github.com/lea-151107/dam/internal/scene"
 )
 
 // flattenTol is the curve flattening tolerance in device pixels.

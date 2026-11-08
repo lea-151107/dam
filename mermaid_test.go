@@ -21,8 +21,8 @@ import (
 	"golang.org/x/image/font/opentype"
 	"golang.org/x/image/font/sfnt"
 
-	"github.com/lea/mermaid/internal/outline"
-	"github.com/lea/mermaid/internal/textmeasure"
+	"github.com/lea-151107/dam/internal/outline"
+	"github.com/lea-151107/dam/internal/textmeasure"
 )
 
 var update = flag.Bool("update", false, "rewrite golden files")

@@ -14,8 +14,8 @@ import (
 	"golang.org/x/image/font/opentype"
 	"golang.org/x/image/math/fixed"
 
-	"github.com/lea/mermaid/internal/outline"
-	"github.com/lea/mermaid/internal/richtext"
+	"github.com/lea-151107/dam/internal/outline"
+	"github.com/lea-151107/dam/internal/richtext"
 )
 
 // BaseFontSizePx is the built-in font size at Scale = 1.

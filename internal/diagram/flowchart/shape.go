@@ -4,7 +4,7 @@ import (
 	"image/color"
 	"math"
 
-	"github.com/lea/mermaid/internal/scene"
+	"github.com/lea-151107/dam/internal/scene"
 )
 
 // nodeSize returns the outer size of a shape that holds text of tw×th.
